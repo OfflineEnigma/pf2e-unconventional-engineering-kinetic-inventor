@@ -1,0 +1,88 @@
+{
+  "id": "pf2e-unconventional-engineering-kinetic-inventor",
+  "title": "PF2e - Unconventional Engineering: Kinetic Inventor",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>A foundry module containing everything from the Unconventional Engineering: Kinetic Inventor supplement. https://www.pathfinderinfinite.com/product/516110/Unconventional-Engineering-Kinetic-Inventor?term=kinetic+inventor&amp;filters=100112_0_0_0_0_100160_0</p>",
+  "authors": [
+    {
+      "name": "Dorji Sanjiev",
+      "email": "dorzhisanzhiev@gmail.com",
+      "discord": "pyrurge",
+      "flags": {}
+    },
+    {
+      "name": "Module by OfflineEnigma / Michael Hosp",
+      "email": "enigmahomebrew@gmail.com",
+      "discord": "offlineenigma",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Kinetic Inventor",
+      "sorting": "a",
+      "packs": [
+        "feats",
+        "abilities"
+      ],
+      "folders": [],
+      "color": null
+    }
+  ],
+  "packs": [
+    {
+      "name": "abilities",
+      "label": "Abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "flags": {
+    "pf2e-unconventional-engineering-kinetic-inventor": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "discharge": {
+            "label": "Discharge",
+            "description": "Certain functions use up all the energy currently stored in your innovation. When you use a function that has the discharge trait, you lose charge until you gain it again (typically with Empower). Recharging to full capacity takes time, and consequently, you can use only one discharge function per round, even if you regain charge immediately."
+          },
+          "function": {
+            "label": "Function",
+            "description": "The special additional devices you install in your innovation are called functions. You can use a function only if you have charge, and only if you’re wearing or holding your innovation or if your innovation is a minion you can Command. If you have the reconfigure class feature, you can retrain these feats more easily."
+          }
+        }
+      }
+    }
+  }
+}
